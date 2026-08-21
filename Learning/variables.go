@@ -9,6 +9,9 @@ func main() {
     fmt.Println(isAdult)
     fmt.Println(name)
 
+    price:= 50.5
+    fmt.Println(price)
+
     var age int = 23
     fmt.Println(age)
 }
