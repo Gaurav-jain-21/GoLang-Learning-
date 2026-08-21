@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"slices"
+)
 
 func main() {
 	var nums []int
@@ -24,5 +27,12 @@ func main() {
 		arr= append(arr,i)
 	}
 	fmt.Println(arr)
+
+	var num1 =[]int{8,5,2,1}
+	fmt.Println(num1[:2])
+
+	var nums2 = []int{1,2}
+	var nums3 = []int{1,2}
+	fmt.Println(slices.Equal(nums2, nums3))
 	
 }
