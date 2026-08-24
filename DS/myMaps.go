@@ -13,4 +13,8 @@ func main() {
 
 	fmt.Println(language)
 	fmt.Println("js short for: ",language["js"])
+	for key, value := range language{
+		fmt.Printf("for key v, value is %v\n", key, value)
+
+	}
 }
