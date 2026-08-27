@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 )
-func main(){
+func chai3(){
 	welcome := "welcome to user input"
 	fmt.Println(welcome)
 	reader := bufio.NewReader(os.Stdin)
