@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-func main(){
+func chai8(){
 	fmt.Println("Structs in golang")
 	// no inheritance in golang; NO super or parent
 	gaurav := User{"Gaurav", "gjain@gmail.com",true, 22}
