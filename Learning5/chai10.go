@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 )
-func main(){
+func chai10(){
 	fmt.Println("Switch and case in golang")
 
 	rand.Seed(time.Now().UnixNano())
