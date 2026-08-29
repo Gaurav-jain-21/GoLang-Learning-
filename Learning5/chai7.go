@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func chai7() {
 	fmt.Println("Welcome to the world of slices")
 	var fruitList = []string{"Apple","Tomato","Peach"}
 	fmt.Printf("type of the fruitList is %T \n", fruitList)
