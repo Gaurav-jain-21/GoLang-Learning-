@@ -15,7 +15,7 @@ type Employee struct {
 	Address Address
 }
 
-func main() {
+func class21() {
 	emp := Employee{
 		ID:     101,
 		Name:   "Gaurav",
