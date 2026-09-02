@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func class9(){
 	name:="Gaurav"
 	age:= 22
 	height:=1.73
