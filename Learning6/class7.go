@@ -13,7 +13,7 @@ func (w Wallet) GetBalance()float64{
 	return w.Balance
 }
 
-func main(){
+func class7(){
 	myWallet:=Wallet{
 		Balance: 5000,
 	}
