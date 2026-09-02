@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func class8(){
 	var weight float64
 	var height float64
 	fmt.Println("=== BMI calculator===")
