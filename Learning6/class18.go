@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-func main(){
+func class18(){
 	type Student struct{
 		Name string
 		Marks int
