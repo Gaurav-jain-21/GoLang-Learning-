@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type User struct{
+type User2 struct{
 	Id int 
 	Username string 
 	Email string 
@@ -10,7 +10,7 @@ type User struct{
 }
 
 func class4(){
-	newUser:= User{
+	newUser:= User2{
 		Id: 101,
 		Username: "Gaurav",
 		Email: "gjain@gmail.com",
