@@ -15,7 +15,7 @@ func reverse(numbers []int) []int {
 	}
 	return numbers
 }
-func main() {
+func revers() {
 	numbers := []int{1, 2, 3, 4, 5, 6}
 	fmt.Println(reverse(numbers))
 }
