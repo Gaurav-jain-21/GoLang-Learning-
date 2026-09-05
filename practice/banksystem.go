@@ -32,7 +32,7 @@ func (b BankAccount) Display(){
 	fmt.Printf("\n Account: %s\nOwner: %s\nBalance: %.2f\n",b.AccountNumber,b.Owner,b.Balance)
 }
 
-func main(){
+func banksystem(){
 	account:= BankAccount{
 		AccountNumber: "ACC123456",
         Owner:         "Gaurav Sharma",
