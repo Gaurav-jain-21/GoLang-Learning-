@@ -27,7 +27,7 @@ func (p *Product) Restock(quantity int){
     fmt.Printf("✅ Restocked %s by %d units\n", p.Name, quantity)
 }
 
-func main(){
+func ecommerce(){
 	products:= []Product{
 		{ID: 1, Name: "Laptop", Price: 50000, Qunatity: 10},
         {ID: 2, Name: "Mouse", Price: 500, Qunatity: 50},
