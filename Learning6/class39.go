@@ -14,7 +14,7 @@ func readFile(filename string) (string, error) {
 
 }
 
-func main(){
+func class39(){
 	content, err:= readFile("missing.txt")
 	if err!= nil{
 		fmt.Println("Error",err)
